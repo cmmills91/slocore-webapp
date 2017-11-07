@@ -1,23 +1,24 @@
 {
   "name": "slocore-webapp",
-  "version": "1.0.0",
-  "description": "Website for Cal Poly-SLO Men's Ultimate team (SLOCORE)",
-  "main": "app.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "node ./app/app.js",
-    "dev": "supervisor ./app/app.js"
+    "start": "node app.js",
+    "dev": "supervisor app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cmmills91/slocore-webapp.git"
-  },
-  "author": "Cody Mills",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cmmills91/slocore-webapp/issues"
-  },
-  "homepage": "https://github.com/cmmills91/slocore-webapp#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "async": "^2.5.0",
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "dotenv": "^4.0.0",
+    "express": "~4.13.4",
+    "express-handlebars": "^3.0.0",
+    "jade": "~1.11.0",
+    "kew": "^0.7.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "^2.3.2",
+    "supervisor": "^0.12.0",
+    "underscore": "^1.8.3"
   }
 }
