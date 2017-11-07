@@ -4,7 +4,8 @@
   "description": "Website for Cal Poly-SLO Men's Ultimate team (SLOCORE)",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./app/app.js",
+    "dev": "supervisor ./app/app.js"
   },
   "repository": {
     "type": "git",
